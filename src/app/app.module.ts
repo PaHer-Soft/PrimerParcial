@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { NavbarPrincipalComponent } from './componentes/navbar-principal/navbar-principal.component';
 import { IonicModule } from '@ionic/angular';
 import { SidebarVideosComponent } from './componentes/sidebar-videos/sidebar-videos.component';
+import { VideoCentralComponent } from './componentes/video-central/video-central.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarPrincipalComponent,
-    SidebarVideosComponent
+    SidebarVideosComponent,
+    VideoCentralComponent
   ],
   imports: [
     BrowserModule,
