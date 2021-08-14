@@ -1,0 +1,19 @@
+#nom_pagina{
+  font-family: Dialog;
+  font-size: 22px;
+  font-style: italic;
+}
+
+#Acceder{
+  font-family: Gabriola;
+  font-size: 18px;
+}
+
+#largo_search{
+  margin-right: 390px;
+}
+
+ion-icon{
+  font-size: 23px;
+}
+
