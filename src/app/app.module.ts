@@ -6,13 +6,15 @@ import { NavbarPrincipalComponent } from './componentes/navbar-principal/navbar-
 import { IonicModule } from '@ionic/angular';
 import { SidebarVideosComponent } from './componentes/sidebar-videos/sidebar-videos.component';
 import { VideoCentralComponent } from './componentes/video-central/video-central.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarPrincipalComponent,
     SidebarVideosComponent,
-    VideoCentralComponent
+    VideoCentralComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
